@@ -1,0 +1,19 @@
+POST http://localhost:3000/assets
+content-type: application/json
+
+{
+    "name": "Amazon",
+    "symbol": "A2",
+    "price": 1000,
+    "image": "AMZN.png"
+}
+
+###
+GET http://localhost:3000/assets
+
+
+###
+GET http://localhost:3000/assets/A1
+
+###
+DELETE http://localhost:3000/assets/A2
